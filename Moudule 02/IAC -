@@ -1,1 +1,6 @@
 
+Agenda table with exact time blocks for each sub-topic, including a break
+Part 1 (Basics): IaC concepts/workflow, providers, resource provisioning (with a live-demo EC2 + SG + S3 example), local state management
+Part 2 (Advanced): variables/outputs/workspaces, remote state & locking (with a two-terminal lock-conflict demo idea), CloudFormation + Terraform modules, and a Terraform vs. native templates comparison table
+Every topic has ready-to-type commands, HCL/YAML code blocks, and callout boxes with talking points/demo ideas you can use live on the call
+A one-page command cheat sheet at the end for quick reference while presenting
