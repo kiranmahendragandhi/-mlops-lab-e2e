@@ -29,7 +29,7 @@ resource "aws_security_group" "ansible_lab_sg" {
 
 resource "aws_instance" "ansible_control" {
   ami                    = "ami-0fc5d935ebf8bc3bc"
-  instance_type          = var.instance_type
+  instance_type          = "t3.micro"
   key_name               = "ansible-lab-key"
   vpc_security_group_ids = [aws_security_group.ansible_lab_sg.id]
 
@@ -40,7 +40,7 @@ resource "aws_instance" "ansible_control" {
 
 resource "aws_instance" "ansible_managed" {
   ami                    = "ami-0fc5d935ebf8bc3bc"
-  instance_type          = var.instance_type
+  instance_type          = "t3.micro"
   key_name               = "ansible-lab-key"
   vpc_security_group_ids = [aws_security_group.ansible_lab_sg.id]
 
