@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Variables
+terraform.tfvars
+
+# Keys
+*.pem
+
+# Ansible
+inventory.ini
+
+# OS
+.DS_Store
+Thumbs.db
